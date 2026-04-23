@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titre -->
+
+        <!-- Input pour factoriel -->
+
+        <!-- Input pour string -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="LAB22 - JNI Demo"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputNumber"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:hint="Entrer un nombre"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="8dp"
+            android:hint="Entrer une chaîne"
+            android:inputType="text" />
+
+        <!-- Boutons -->
+
+        <Button
+            android:id="@+id/btnHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Hello Native"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnFactorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) Factoriel"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnReverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Reverse String"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4) Somme Tableau"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnMatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5) Multiplication Matricielle"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Résultat -->
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Résultat ici..."
+            android:textSize="25sp"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
